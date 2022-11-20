@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>lesson 19 homework</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <section class="form-section">
+      <form class="form" id="sign-up" action="#" method="get" novalidate>
+        <div class="input-field">
+          <label for="username">Enter User Name</label>
+          <input type="text" id="username" placeholder="user name" required />
+          <span class="error-message" id="username-error"></span>
+        </div>
+
+        <div class="input-field">
+          <label for="email">Enter Email</label>
+          <input type="email" id="email" placeholder="email" required />
+          <span class="error-message" id="email-error"></span>
+        </div>
+
+        <div class="input-field">
+          <label for="personal_number">Enter personal number</label>
+          <input
+            type="number"
+            id="personal_number"
+            placeholder="personal number"
+            required
+          />
+          <span class="error-message" id="personal_number-error"></span>
+        </div>
+
+        <div class="input-field">
+          <label for="mobile_number">Enter mobile number</label>
+          <input
+            type="number"
+            id="mobile_number"
+            placeholder="mobile number"
+            required
+          />
+          <span class="error-message" id="mobile_number-error"></span>
+        </div>
+        <div class="input-field">
+          <label for="job-description">Enter job-description</label>
+          <input
+            type="text"
+            id="job-description"
+            placeholder="job-description"
+          />
+          <span class="error-message" id="job_description-error"></span>
+        </div>
+
+        <div class="input-field">
+          <label for="password">Enter Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="password"
+            minlength="5"
+            required
+          />
+          <span class="error-message" id="password-error"></span>
+        </div>
+
+        <div class="input-field">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <div class="modal" id="sign-in">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Modal Title</h3>
+          <button class="modal-close">X</button>
+        </div>
+        <div class="modal-body">this is modal body</div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="homeworke.js"></script>
+  </body>
+</html>
